@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f0afc1b22d3ff381f2906adf881177670c58554c213b21e84da7218426793785
-size 1100
+
+# Intelligent System for Fraud Detection in Auto Insurance Policies
+
+This project aims to develop a system based on Machine Learning and Deep Learning models that:\
+•	Predicts the likelihood of fraud using structured data.\
+•	Classifies the severity of the damage using images.\
+•	Identifies damaged auto parts using image segmentation.
+
+
+
+
+## Authors
+
+- Juan José Hurtado Ordoñez
+- Rogelio Rivera Meléndez
+- Ignacio Sáyago Vela
+
+
+
+
+## Usage
+
+The project runs on 3 different docker containers
+
+     1. Fraud detection endpoint
+     2. Severity classification and damage detection endpoint
+     3. Front end
+
+\
+The files required to build the containers are located in the CONTAINERS folder
+
+First you need to build and deploy containers 1 and 2, either locally or on a cloud platform
+
+Once containers 1 and 2 are running, before building the image for container 3 you have to edit the 'front.py' file located in CONTAINERS\front_streamlit_cloud folder, and insert the URLs of the deployed containers 1 and 2. Then you can build and delpoy container 3 either locally or on a cloud platform.
