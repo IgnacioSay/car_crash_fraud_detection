@@ -31,4 +31,4 @@ The files required to build the containers are located in the CONTAINERS folder
 
 First you need to build and deploy containers 1 and 2, either locally or on a cloud platform
 
-Once containers 1 and 2 are running, before building the image for container 3 you have to edit the 'front.py' file located in CONTAINERS\front_streamlit_cloud folder, and insert the URLs of the deployed containers 1 and 2. Then you can build and delpoy container 3 either locally or on a cloud platform.
+Once containers 1 and 2 are running, before building the image for container 3 you have to edit the 'front.py' file located in CONTAINERS\03_front_end folder, and insert the URLs of the deployed containers 1 and 2. Then you can build and delpoy container 3 either locally or on a cloud platform.
