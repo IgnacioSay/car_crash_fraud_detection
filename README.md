@@ -35,6 +35,6 @@ Once containers 1 and 2 are running, before building the image for container 3 y
 
 - The url of container 1 must end with "/fraud_detection"
 
-- The url of container 2 must end wiht "/damage_detection"
+- The url of container 2 must end with "/damage_detection"
 
 Then you can build and delpoy container 3 either locally or on a cloud platform.
